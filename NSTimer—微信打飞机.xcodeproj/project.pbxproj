@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8908FF31C96411E006799BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8908FF21C96411E006799BF /* main.m */; };
+		D8908FF61C96411E006799BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8908FF51C96411E006799BF /* AppDelegate.m */; };
+		D8908FF91C96411E006799BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8908FF81C96411E006799BF /* ViewController.m */; };
+		D8908FFC1C96411E006799BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8908FFA1C96411E006799BF /* Main.storyboard */; };
+		D8908FFE1C96411E006799BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8908FFD1C96411E006799BF /* Assets.xcassets */; };
+		D89090011C96411E006799BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8908FFF1C96411E006799BF /* LaunchScreen.storyboard */; };
+		D890900C1C96411E006799BF /* NSTimer______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D890900B1C96411E006799BF /* NSTimer______Tests.m */; };
+		D89090171C96411E006799BF /* NSTimer______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89090161C96411E006799BF /* NSTimer______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D89090081C96411E006799BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8908FE61C96411E006799BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8908FED1C96411E006799BF;
+			remoteInfo = "NSTimer—微信打飞机";
+		};
+		D89090131C96411E006799BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8908FE61C96411E006799BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8908FED1C96411E006799BF;
+			remoteInfo = "NSTimer—微信打飞机";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8908FEE1C96411E006799BF /* NSTimer—微信打飞机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSTimer—微信打飞机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8908FF21C96411E006799BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8908FF41C96411E006799BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8908FF51C96411E006799BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8908FF71C96411E006799BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8908FF81C96411E006799BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8908FFB1C96411E006799BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8908FFD1C96411E006799BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D89090001C96411E006799BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D89090021C96411E006799BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89090071C96411E006799BF /* NSTimer—微信打飞机Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSTimer—微信打飞机Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D890900B1C96411E006799BF /* NSTimer______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer______Tests.m"; sourceTree = "<group>"; };
+		D890900D1C96411E006799BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89090121C96411E006799BF /* NSTimer—微信打飞机UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSTimer—微信打飞机UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89090161C96411E006799BF /* NSTimer______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer______UITests.m"; sourceTree = "<group>"; };
+		D89090181C96411E006799BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8908FEB1C96411E006799BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89090041C96411E006799BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890900F1C96411E006799BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8908FE51C96411E006799BF = {
+			isa = PBXGroup;
+			children = (
+				D8908FF01C96411E006799BF /* NSTimer—微信打飞机 */,
+				D890900A1C96411E006799BF /* NSTimer—微信打飞机Tests */,
+				D89090151C96411E006799BF /* NSTimer—微信打飞机UITests */,
+				D8908FEF1C96411E006799BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8908FEF1C96411E006799BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8908FEE1C96411E006799BF /* NSTimer—微信打飞机.app */,
+				D89090071C96411E006799BF /* NSTimer—微信打飞机Tests.xctest */,
+				D89090121C96411E006799BF /* NSTimer—微信打飞机UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8908FF01C96411E006799BF /* NSTimer—微信打飞机 */ = {
+			isa = PBXGroup;
+			children = (
+				D8908FF41C96411E006799BF /* AppDelegate.h */,
+				D8908FF51C96411E006799BF /* AppDelegate.m */,
+				D8908FF71C96411E006799BF /* ViewController.h */,
+				D8908FF81C96411E006799BF /* ViewController.m */,
+				D8908FFA1C96411E006799BF /* Main.storyboard */,
+				D8908FFD1C96411E006799BF /* Assets.xcassets */,
+				D8908FFF1C96411E006799BF /* LaunchScreen.storyboard */,
+				D89090021C96411E006799BF /* Info.plist */,
+				D8908FF11C96411E006799BF /* Supporting Files */,
+			);
+			path = "NSTimer—微信打飞机";
+			sourceTree = "<group>";
+		};
+		D8908FF11C96411E006799BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8908FF21C96411E006799BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D890900A1C96411E006799BF /* NSTimer—微信打飞机Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D890900B1C96411E006799BF /* NSTimer______Tests.m */,
+				D890900D1C96411E006799BF /* Info.plist */,
+			);
+			path = "NSTimer—微信打飞机Tests";
+			sourceTree = "<group>";
+		};
+		D89090151C96411E006799BF /* NSTimer—微信打飞机UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D89090161C96411E006799BF /* NSTimer______UITests.m */,
+				D89090181C96411E006799BF /* Info.plist */,
+			);
+			path = "NSTimer—微信打飞机UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8908FED1C96411E006799BF /* NSTimer—微信打飞机 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D890901B1C96411E006799BF /* Build configuration list for PBXNativeTarget "NSTimer—微信打飞机" */;
+			buildPhases = (
+				D8908FEA1C96411E006799BF /* Sources */,
+				D8908FEB1C96411E006799BF /* Frameworks */,
+				D8908FEC1C96411E006799BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSTimer—微信打飞机";
+			productName = "NSTimer—微信打飞机";
+			productReference = D8908FEE1C96411E006799BF /* NSTimer—微信打飞机.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D89090061C96411E006799BF /* NSTimer—微信打飞机Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D890901E1C96411E006799BF /* Build configuration list for PBXNativeTarget "NSTimer—微信打飞机Tests" */;
+			buildPhases = (
+				D89090031C96411E006799BF /* Sources */,
+				D89090041C96411E006799BF /* Frameworks */,
+				D89090051C96411E006799BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D89090091C96411E006799BF /* PBXTargetDependency */,
+			);
+			name = "NSTimer—微信打飞机Tests";
+			productName = "NSTimer—微信打飞机Tests";
+			productReference = D89090071C96411E006799BF /* NSTimer—微信打飞机Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D89090111C96411E006799BF /* NSTimer—微信打飞机UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89090211C96411E006799BF /* Build configuration list for PBXNativeTarget "NSTimer—微信打飞机UITests" */;
+			buildPhases = (
+				D890900E1C96411E006799BF /* Sources */,
+				D890900F1C96411E006799BF /* Frameworks */,
+				D89090101C96411E006799BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D89090141C96411E006799BF /* PBXTargetDependency */,
+			);
+			name = "NSTimer—微信打飞机UITests";
+			productName = "NSTimer—微信打飞机UITests";
+			productReference = D89090121C96411E006799BF /* NSTimer—微信打飞机UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8908FE61C96411E006799BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "张海禄";
+				TargetAttributes = {
+					D8908FED1C96411E006799BF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VLHH945AX7;
+					};
+					D89090061C96411E006799BF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VLHH945AX7;
+						TestTargetID = D8908FED1C96411E006799BF;
+					};
+					D89090111C96411E006799BF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VLHH945AX7;
+						TestTargetID = D8908FED1C96411E006799BF;
+					};
+				};
+			};
+			buildConfigurationList = D8908FE91C96411E006799BF /* Build configuration list for PBXProject "NSTimer—微信打飞机" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8908FE51C96411E006799BF;
+			productRefGroup = D8908FEF1C96411E006799BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8908FED1C96411E006799BF /* NSTimer—微信打飞机 */,
+				D89090061C96411E006799BF /* NSTimer—微信打飞机Tests */,
+				D89090111C96411E006799BF /* NSTimer—微信打飞机UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8908FEC1C96411E006799BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89090011C96411E006799BF /* LaunchScreen.storyboard in Resources */,
+				D8908FFE1C96411E006799BF /* Assets.xcassets in Resources */,
+				D8908FFC1C96411E006799BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89090051C96411E006799BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89090101C96411E006799BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8908FEA1C96411E006799BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8908FF91C96411E006799BF /* ViewController.m in Sources */,
+				D8908FF61C96411E006799BF /* AppDelegate.m in Sources */,
+				D8908FF31C96411E006799BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89090031C96411E006799BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D890900C1C96411E006799BF /* NSTimer______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D890900E1C96411E006799BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89090171C96411E006799BF /* NSTimer______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D89090091C96411E006799BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8908FED1C96411E006799BF /* NSTimer—微信打飞机 */;
+			targetProxy = D89090081C96411E006799BF /* PBXContainerItemProxy */;
+		};
+		D89090141C96411E006799BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8908FED1C96411E006799BF /* NSTimer—微信打飞机 */;
+			targetProxy = D89090131C96411E006799BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8908FFA1C96411E006799BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8908FFB1C96411E006799BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8908FFF1C96411E006799BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D89090001C96411E006799BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D89090191C96411E006799BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D890901A1C96411E006799BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D890901C1C96411E006799BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSTimer—微信打飞机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhanghailu.NSTimer------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D890901D1C96411E006799BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSTimer—微信打飞机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhanghailu.NSTimer------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D890901F1C96411E006799BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSTimer—微信打飞机Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhanghailu.NSTimer------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTimer—微信打飞机.app/NSTimer—微信打飞机";
+			};
+			name = Debug;
+		};
+		D89090201C96411E006799BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSTimer—微信打飞机Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhanghailu.NSTimer------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTimer—微信打飞机.app/NSTimer—微信打飞机";
+			};
+			name = Release;
+		};
+		D89090221C96411E006799BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NSTimer—微信打飞机UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhanghailu.NSTimer------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSTimer—微信打飞机";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D89090231C96411E006799BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NSTimer—微信打飞机UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhanghailu.NSTimer------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSTimer—微信打飞机";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8908FE91C96411E006799BF /* Build configuration list for PBXProject "NSTimer—微信打飞机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89090191C96411E006799BF /* Debug */,
+				D890901A1C96411E006799BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D890901B1C96411E006799BF /* Build configuration list for PBXNativeTarget "NSTimer—微信打飞机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D890901C1C96411E006799BF /* Debug */,
+				D890901D1C96411E006799BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D890901E1C96411E006799BF /* Build configuration list for PBXNativeTarget "NSTimer—微信打飞机Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D890901F1C96411E006799BF /* Debug */,
+				D89090201C96411E006799BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D89090211C96411E006799BF /* Build configuration list for PBXNativeTarget "NSTimer—微信打飞机UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89090221C96411E006799BF /* Debug */,
+				D89090231C96411E006799BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8908FE61C96411E006799BF /* Project object */;
+}
